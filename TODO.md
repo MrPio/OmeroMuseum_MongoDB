@@ -1,6 +1,4 @@
-
-# TODO.md
-## Progetto Database NoSQL per il Museo Omero
+# TODO
 
 ### 1. Analisi dei requisiti
 - [ ] Definire il contesto d’uso specifico per il Museo Omero  
