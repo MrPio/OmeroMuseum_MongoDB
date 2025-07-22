@@ -1,16 +1,17 @@
 # TODO
 
 ### 1. Analisi dei requisiti
-- [ ] Definire il contesto d’uso specifico per il Museo Omero  
-- [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.)  
-- [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.)  
-- [ ] Definire i volumi attesi di dati (utenti, opere, interazioni)  
-- [ ] Definire i casi d’uso principali  
+- [ ] Definire il contesto d’uso specifico per il Museo Omero -> Vale
+- [ ] Descrivere le tabelle del dataset -> Ems
+- [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.) -> Federico
+- [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.) -> Federico
 
 ---
 
 ### 2. Modellazione dei dati  
-- [ ] Modellazione concettuale (diagramma UML o ER semplificato)  
+- [ ] Modellazione concettuale (diagramma UML o ER semplificato) 
+- [ ] Definire i volumi attesi di dati (utenti, opere, interazioni)  
+- [ ] Definire i casi d’uso principali   
 - [ ] Identificare aggregati e radici degli aggregati  
 - [ ] Decidere le entità da denormalizzare e aggregare per ridurre le query complesse  
 - [ ] Stabilire le politiche di partizionamento (orizzontale per messaggi/feedback, se necessario)  
