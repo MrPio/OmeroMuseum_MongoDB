@@ -1,15 +1,16 @@
 # TODO
 
 ### 1. Analisi dei requisiti
-- [ ] Definire il contesto d’uso specifico per il Museo Omero -> Vale
-- [ ] Descrivere le tabelle del dataset -> Ems
+- [X] Definire il contesto d’uso specifico per il Museo Omero -> Vale
+- [ ] Descrivere le tabelle del dataset con drawsql -> Ems
+- [ ] Schema dei processi interni revisionato -> Vale
 - [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.) -> Federico
 - [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.) -> Federico
-
+- [ ] Studio slide progettazione -> Federico
+- [ ] Modellazione concettuale (diagramma UML o ER semplificato) 
 ---
 
 ### 2. Modellazione dei dati  
-- [ ] Modellazione concettuale (diagramma UML o ER semplificato) 
 - [ ] Definire i volumi attesi di dati (utenti, opere, interazioni)  
 - [ ] Definire i casi d’uso principali   
 - [ ] Identificare aggregati e radici degli aggregati  
