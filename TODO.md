@@ -28,7 +28,6 @@
 
 ---
 
-### 6. Deployment e documentazione  
+### 5. Deployment e documentazione  
 - [ ] Creare un README con istruzioni per avviare il progetto  
-- [ ] Documentare le scelte progettuali  
 - [ ] Preparare una presentazione per l’esposizione del progetto  
