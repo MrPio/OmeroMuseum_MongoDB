@@ -2,7 +2,7 @@
 
 ### 1. Analisi dei requisiti
 - [X] Definire il contesto d’uso specifico per il Museo Omero -> Vale
-- [ ] Descrivere le tabelle del dataset -> Ems
+- [X] Descrivere le tabelle del dataset -> Ems
 - [X] Schema dei processi interni revisionato -> Vale
 - [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.) -> Federico, revisione Vale
 - [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.) -> Federico
