@@ -4,14 +4,15 @@
 - [X] Definire il contesto d’uso specifico per il Museo Omero -> Vale
 - [ ] Descrivere le tabelle del dataset -> Ems
 - [X] Schema dei processi interni revisionato -> Vale
-- [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.) -> Federico
-- [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.)
+- [ ] Identificare i requisiti funzionali (prenotazioni, catalogo opere, tour guidati, ecc.) -> Federico, revisione Vale
+- [ ] Identificare i requisiti non funzionali (scalabilità, disponibilità, sicurezza, ecc.) -> Federico
 ---
 
 ### 2. Modellazione dei dati   
 - [X] Modellazione concettuale (ER semplificato) -> Vale
-- [ ] Progettazione aggregati con costi e operazioni (rosso e blu -> vale, verdi -> fede) 
-- [ ] Stabilire le politiche di partizionamento (orizzontale per messaggi/feedback, se necessario)  
+- [ ] Tavola volumi con giustificazione -> Federico
+- [ ] Tavola operazioni -> Valerio
+- [ ] Giustificazione aggregati/partizionamenti con costi e operazioni -> Ems 
 
 ---
 
