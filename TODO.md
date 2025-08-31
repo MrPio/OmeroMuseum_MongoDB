@@ -12,17 +12,18 @@
 - [X] Modellazione concettuale (ER semplificato) -> Vale
 - [X] Tavola volumi con giustificazione -> Fede
 - [X] Tavola operazioni -> Tutti, da estendere
-- [ ] Partizionamento orizzontale -> Vale
+- [X] Partizionamento orizzontale -> Vale
 - [X] Giustificazione aggregati con costi e operazioni -> Ems e Vale
-- [ ] NoAM e Aggregate Partitioning (EAO/ETF) -> Fede/Ems
+- [X] NoAM e Aggregate Partitioning (EAO/ETF) -> Fede/Ems
 
 ---
 
 ### 3. Progettazione NoSQL (MongoDB)  
-- [ ] Definire la struttura JSON dei documenti
-- [ ] Creare script per il popolamento iniziale
-- [ ] Creare query (elenco da aggiornare)
-
+- [ ] Definire la struttura JSON dei documenti -> Ems
+- [ ] Creare script per il popolamento iniziale -> Vale
+- [ ] Definire query -> Ems
+- [ ] Creare query NoSQL
+- [ ] Appendice AI -> Fede
 ---
 
 ### 4. Documentazione 
