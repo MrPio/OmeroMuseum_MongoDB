@@ -1,2 +1,2 @@
-# MuseoOmero_NoSQL_Db
-Progetto per la creazione di un database No SQL con MongoDB per il museo tattile Statale Omero (AN)
+# Omero Museum MongoDB
+Design and implementation of a MongoDB database for the management of the State Omero Museum
