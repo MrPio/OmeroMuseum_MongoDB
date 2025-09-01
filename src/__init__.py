@@ -2,6 +2,8 @@ __author__ = "Valerio Morelli"
 __email__ = "valeriomorelli50@gmail.com"
 __license__ = "Apache-2.0"
 
+# Connector
+from .connector.MongoDB import MongoDBConnector
 
 # Utils
 from .utils import imshow, cprint, pil_stack
