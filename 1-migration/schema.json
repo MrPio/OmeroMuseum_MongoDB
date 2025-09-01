@@ -1,0 +1,141 @@
+{
+  "activities": [
+    "room",
+    "duration",
+    "enrolled",
+    "startDate",
+    "capacity",
+    "ticketIds",
+    "workshopTitles"
+  ],
+  "artworks": [
+    "date",
+    "type",
+    "description",
+    "author",
+    "isOriginal",
+    "size",
+    "period",
+    "sellerId",
+    "donatorId",
+    "donationState",
+    "locationName",
+    "authorIds",
+    "tecnique",
+    "material",
+    "commentsStar1",
+    "commentsStar2",
+    "commentsStar3",
+    "commentsStar4",
+    "commentsStar5",
+    "trade"
+  ],
+  "authors": [
+    "name",
+    "surname",
+    "homeTown",
+    "birthDate",
+    "gender",
+    "creationTitles"
+  ],
+  "departments": [
+    "spots",
+    "freeSpots",
+    "room",
+    "type"
+  ],
+  "employees": [
+    "salary",
+    "startDate",
+    "endDate",
+    "englishCert",
+    "desk",
+    "type",
+    "activityIds",
+    "department",
+    "chatIds",
+    "shifts",
+    "employees"
+  ],
+  "limited_events": [
+    "capacity",
+    "type",
+    "startDate",
+    "endDate",
+    "artist",
+    "theme",
+    "description",
+    "title",
+    "roomName",
+    "authorIds",
+    "artworkTitles",
+    "ticketIds"
+  ],
+  "messages": [
+    "customerId",
+    "sentDate",
+    "type",
+    "content",
+    "deliveryStatus",
+    "length",
+    "uri"
+  ],
+  "rooms": [
+    "room",
+    "floor",
+    "artworkTitles"
+  ],
+  "suppliers": [
+    "name",
+    "iban",
+    "isState",
+    "isMuseum",
+    "email",
+    "phoneNum",
+    "surveys"
+  ],
+  "surveys": [
+    "accompanying_persons_visit",
+    "date_of_compilation",
+    "reason_for_visit",
+    "number_of_visits",
+    "return",
+    "type_of_visit",
+    "title_of_studies",
+    "evaluation_of_experience",
+    "evaluation_of_facility",
+    "evaluation_of_visit"
+  ],
+  "tickets": [
+    "price",
+    "date",
+    "limited_event",
+    "activity",
+    "check_in_date"
+  ],
+  "visitors": [
+    "isCustomer",
+    "birthDate",
+    "impairment",
+    "gender",
+    "land",
+    "tickets",
+    "surveys",
+    "surname",
+    "name",
+    "donationsId",
+    "salesId",
+    "phoneNum",
+    "email",
+    "tradeIds",
+    "chat",
+    "comments"
+  ],
+  "workshops": [
+    "type",
+    "planner",
+    "duration",
+    "class",
+    "activityIds"
+  ]
+}
