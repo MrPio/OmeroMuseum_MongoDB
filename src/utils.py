@@ -24,12 +24,13 @@ COLORS = [
     "light_blue",
     "light_magenta",
 ]
-__counter=0
+__counter = 0
+
 
 def cprint(*vals):
     """Log values, highlighting any prefixed by a color tag (e.g., 'red:error')."""
     global __counter
-    __counter=0
+    __counter = 0
 
     def fmt(v):
         if isinstance(v, (int, float)):
@@ -43,7 +44,7 @@ def cprint(*vals):
             global __counter
             # v = v.replace("rand:", f"{random.choice(COLORS)}:")
             v = v.replace("rand:", f"{COLORS[__counter%len(COLORS)]}:")
-            __counter+=1
+            __counter += 1
         for c in COLORS:
             tag = f"{c}:"
             if v.startswith(tag):
@@ -55,7 +56,10 @@ def cprint(*vals):
 
 
 def imshow(
-    images: list[Image.Image | np.ndarray | str | Path] | dict[str, Image.Image | np.ndarray | str | Path],
+    images: (
+        list[Image.Image | np.ndarray | str | Path]
+        | dict[str, Image.Image | np.ndarray | str | Path]
+    ),
     size=4,
     cols: int = None,
     cmap="grey",
@@ -85,10 +89,16 @@ def imshow(
         cols = min(10, len(images))
     rows = math.ceil(len(images) / cols)
     max_ratio = max(
-        (image.size[0] / image.size[1] if isinstance(image, (Image.Image)) else image.shape[0] / image.shape[1])
+        (
+            image.size[0] / image.size[1]
+            if isinstance(image, (Image.Image))
+            else image.shape[0] / image.shape[1]
+        )
         for image in images
     )
-    _, axes = plt.subplots(rows, cols, figsize=(cols * size, int(rows * size * max_ratio)))
+    _, axes = plt.subplots(
+        rows, cols, figsize=(cols * size, int(rows * size * max_ratio))
+    )
     if rows > 1 or cols > 1:
         axes = axes.flatten()
     else:
@@ -100,27 +110,3 @@ def imshow(
         axes[i].axis("off")
     plt.tight_layout()
     plt.show()
-
-
-def pil_stack(imgs, horizontally=True):
-    """
-    Stacks a list of PIL Images horizontally.
-
-    Args:
-        imgs (List[Image.Image]): List of PIL Image objects.
-        bg_color (tuple): Background color (for any padding), e.g. (0,0,0) for black.
-
-    Returns:
-        Image.Image: New PIL image with all inputs concatenated side by side.
-    """
-    imgs = list(imgs)
-    widths, heights = zip(*(im.size for im in imgs))
-    total_width = (sum if horizontally else max)(widths)
-    max_height = (max if horizontally else sum)(heights)
-    new_img = Image.new(imgs[0].mode, (total_width, max_height))
-    offset = 0
-    for im in imgs:
-        new_img.paste(im, (offset, 0) if horizontally else (0, offset))
-        offset += im.width if horizontally else im.height
-
-    return new_img

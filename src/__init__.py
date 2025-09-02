@@ -9,7 +9,7 @@ from .connector.MongoDB import MongoDBConnector
 from .seeder.seeder import DocSeeder, EntrySeeder
 
 # Utils
-from .utils import imshow, cprint, pil_stack
+from .utils import imshow, cprint
 
 # Constants
 from pathlib import Path

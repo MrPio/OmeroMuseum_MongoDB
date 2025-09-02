@@ -4,14 +4,15 @@ from faker import Faker
 
 
 class DocSeeder:
-    def __init__(
-        self, connector: MongoDBConnector, schema: dict[str, "EntrySeeder"]
-    ) -> None:
-        self.connector = connector
+    def __init__(self, schema: dict[str, "EntrySeeder"]) -> None:
         self.schema = schema
 
     def seed(self) -> dict:
-        return {k: v.seed() for k, v in self.schema.items()}
+        return {
+            k: v
+            for k, v in {k: v.seed() for k, v in self.schema.items()}.items()
+            if v != None
+        }
 
 
 class EntrySeeder:
@@ -21,6 +22,8 @@ class EntrySeeder:
         self.__fake = Faker("it_IT")
 
     def seed(self) -> Any:
+        if self.optional and self.__fake.boolean():
+            return None
         if isinstance(self.type, DocSeeder):
             return self.type.seed()
         elif isinstance(self.type, list):
