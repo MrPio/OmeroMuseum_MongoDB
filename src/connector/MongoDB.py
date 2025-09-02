@@ -3,11 +3,12 @@ from src.utils import cprint
 
 
 class MongoDBConnector:
-    def __init__(self, db, url="mongodb://localhost:27017/") -> None:
+    def __init__(self, db, url="mongodb://localhost:27017/", silent=False) -> None:
         self.db_name = db
         self.__client = MongoClient(url)
         self.db = self.__client[db]
-        self.stats()
+        if not silent:
+            self.stats()
 
     @property
     def collections(self) -> list[str]:

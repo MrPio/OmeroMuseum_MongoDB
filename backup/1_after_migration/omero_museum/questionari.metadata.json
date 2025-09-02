@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"visitatore":{"$numberInt":"1"}},"name":"_RM_visitatore","unique":true,"sparse":true}],"uuid":"dfda7c3ca5eb4686b58cee17a0decae6","collectionName":"questionari","type":"collection"}
