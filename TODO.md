@@ -19,11 +19,11 @@
 ---
 
 ### 3. Progettazione NoSQL (MongoDB)  
-- [ ] Definire la struttura JSON dei documenti -> Ems
-- [ ] Creare script per il popolamento iniziale -> Vale
-- [ ] Definire query -> Ems
+- [X] Definire la struttura JSON dei documenti -> Ems
+- [X] Creare script per il popolamento iniziale -> Vale
+- [X] Definire query -> Ems
 - [ ] Creare query NoSQL
-- [ ] Appendice AI -> Fede
+- [X] Appendice AI -> Fede
 ---
 
 ### 4. Documentazione 
