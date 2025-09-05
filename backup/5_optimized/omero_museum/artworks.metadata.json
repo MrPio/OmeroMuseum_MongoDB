@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"id":{"$numberInt":"1"}},"name":"_RM_id","unique":true,"sparse":true}],"uuid":"e12e824d55414c8294be90c520982777","collectionName":"artworks","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"id":{"$numberInt":"1"}},"name":"_RM_id","unique":true,"sparse":true}],"uuid":"f21d70ad05784b028605d803c4ce209a","collectionName":"artworks","type":"collection"}

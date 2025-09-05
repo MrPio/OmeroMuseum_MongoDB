@@ -23,7 +23,7 @@
 - [X] Creare script per il popolamento iniziale -> Vale
 - [ ] Aggiustare valori db: 
     1) referencing tra ticketIds in Event e ticket dei visitatori (OK!)
-    2) ref. tra id impiegato e msg di risposta in chat visitatore
+    2) ref. tra id impiegato e msg di risposta in chat visitatore (OK!)
     3) RD15 come farla se trade è in artwork?
     4) ref. tra department e shifts con employees per RD21/24
     5) inserire authorID in artwork per RD29
