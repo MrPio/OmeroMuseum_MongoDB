@@ -21,8 +21,14 @@
 ### 3. Progettazione NoSQL (MongoDB)  
 - [X] Definire la struttura JSON dei documenti -> Ems
 - [X] Creare script per il popolamento iniziale -> Vale
-- [X] Definire query -> Ems
-- [ ] Creare query NoSQL
+- [ ] Aggiustare valori db: 
+    1) referencing tra ticketIds in Event e ticket dei visitatori
+    2) ref. tra id impiegato e msg di risposta in chat visitatore
+    3) RD15 come farla se trade è in artwork?
+    4) ref. tra department e shifts con employees per RD21/24
+    5) inserire authorID in artwork per RD29
+    6) controllare consistenza riferimenti msg
+- [ ] Creare query -> Tutti
 - [X] Appendice AI -> Fede
 ---
 
