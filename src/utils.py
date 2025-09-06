@@ -27,6 +27,40 @@ COLORS = [
 __counter = 0
 
 
+def jprint(json):
+    def pprint(json, level=0, tab=4, ck="red", cv="cyan"):
+        space = " " * tab
+        if isinstance(json, dict):
+            args: list = [(space * level, "{")]
+            for k, v in json.items():
+                _v = pprint(v, level=level + 1, ck=ck, cv=cv)
+                arg = [space * (level + 1), f"{ck}:{k}", ":"]
+                if isinstance(_v, str):
+                    arg.append(_v)
+                args.append(tuple(arg))
+                if not isinstance(_v, str):
+                    args.extend(_v)
+            return args + [(space * level, "}")]
+        elif isinstance(json, list) and (len(json) == 0 or isinstance(json[0], str)):
+            return f"{cv}:[" + ", ".join(json) + "]"
+        elif isinstance(json, list):
+            args: list = [(space * level, "[")]
+            for v in json:
+                _v = pprint(v, level=level + 1, ck=ck, cv=cv)
+                arg = [space * (level + 1)]
+                if isinstance(_v, str):
+                    arg.append(_v)
+                args.append(tuple(arg))
+                if not isinstance(_v, str):
+                    args.extend(_v)
+            return args + [(space * level, "]")]
+        else:
+            return f"{cv}:{json}"
+
+    for args in pprint(json):
+        cprint(*args)
+
+
 def cprint(*vals):
     """Log values, highlighting any prefixed by a color tag (e.g., 'red:error')."""
     global __counter
