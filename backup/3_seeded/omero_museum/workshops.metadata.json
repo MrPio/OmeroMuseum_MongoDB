@@ -1,1 +1,1 @@
-{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"nome":{"$numberInt":"1"}},"name":"_RM_nome","unique":true,"sparse":true}],"uuid":"f793ea9ece674f04a3b7364bdcbbf1fc","collectionName":"workshops","type":"collection"}
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"nome":{"$numberInt":"1"}},"name":"_RM_nome","unique":true,"sparse":true}],"uuid":"c9087f49e5b7465880a309e3e3c4756e","collectionName":"workshops","type":"collection"}
