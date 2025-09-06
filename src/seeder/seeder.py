@@ -1,4 +1,6 @@
 from random import random
+
+from tqdm import tqdm
 from src.connector.MongoDB import MongoDBConnector
 from typing import Any, Callable
 from faker import Faker
@@ -17,7 +19,12 @@ class DocSeeder:
 
     def seed(self, amount: int | None = None) -> dict | list[dict]:
         return (
-            self.__seed() if amount is None else [self.__seed() for _ in range(amount)]
+            self.__seed()
+            if amount is None
+            else [
+                self.__seed()
+                for _ in tqdm(range(amount), disable=amount < 10_000, leave=False)
+            ]
         )
 
 
