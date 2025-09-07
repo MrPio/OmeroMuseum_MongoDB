@@ -1,8 +1,8 @@
-# Omero Museum MongoDB
-
 <p align="center">
   <img src="assets/cover.jpg" width="100%"></img>
 </p>
+
+# Omero Museum MongoDB
 
 This project proposes a redesign and reimplementation using NoSQL of an obsolete relational database for managing the State Omero Museum.
 
