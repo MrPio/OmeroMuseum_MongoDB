@@ -15,6 +15,15 @@ This project proposes a redesign and reimplementation using NoSQL of an obsolete
   </a>
 </p>
 
+## My projects on the Omero Museum
+| Title                                     | Description                                                                                                                                                                     | Repository                                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Managment software (*Design*)**         | Design of a managment software following UP's guidelines                                                                                                                        | [`🔗OmeroMuseum_EnterpriseArchitect`](https://github.com/MrPio/MuseoOmero-EnterpriseArchitect) |
+| **Managment software (*Implementation*)** | Qt implementation of the managment software                                                                                                                                     | [`🔗OmeroMuseum_Qt`](https://github.com/MrPio/MuseoOmero-Python)                               |
+| **MySQL database**                        | Design and implementation of a MySQL database for the managment of the museum.                                                                                                  | [`🔗OmeroMuseum_MySQL`](https://github.com/MrPio/MuseoOmero_Database)                          |
+| **MAUI mobile and desktop applications**  | Multi-platform management application implemented as my bachelor internship project. The app addresses the needs of both customers and staff of a museum in the city of Ancona. | [`🔗OmeroMuseum_MAUI`](https://github.com/MrPio/MuseoOmeroApp-MAUI)                            |
+| **MySQL database**                        | Design and (re)implementation of a MongoDB database for the management of the Museum.                                                                                           | [`🔗OmeroMuseum_MongoDB`](https://github.com/MrPio/OmeroMuseum_MongoDB)                        |
+
 ## How to load the database
 `mongodump` from [*MongoDB Database Tools*](https://www.mongodb.com/docs/database-tools/) was used to dump the database right after MySQL migration. Therefore, you need to load it using `mongorestore`, available in the same collection of tools.
 
