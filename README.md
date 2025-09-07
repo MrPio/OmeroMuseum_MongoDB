@@ -1,4 +1,9 @@
 # Omero Museum MongoDB
+
+<p align="center">
+  <img src="assets/cover.jpg" width="100%"></img>
+</p>
+
 This project proposes a redesign and reimplementation using NoSQL of an obsolete relational database for managing the State Omero Museum.
 
 >[!WARNING]
@@ -28,7 +33,7 @@ Now you're ready to execute the queries listed in [`2-queries`](2-queries/).
 
 ## Activities Flowchart
 <p align="center">
-  <img src="assets/Activities Analysis.png" width="80%"></img>
+  <img src="assets/Activities Analysis.png" width="100%"></img>
 </p>
 
 ## Entity-Relationship Diagram
