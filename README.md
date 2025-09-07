@@ -10,7 +10,9 @@ This project proposes a redesign and reimplementation using NoSQL of an obsolete
 > This project is entirely amateur and educational. It was created without any permission, endorsement, or collaboration from the [State Omero Museum](https://www.museoomero.it/). All content, structure, and data usage are fictional or hypothetical.
 
 <p align="center">
-  <img src="assets/app.png" width="80%"></img>
+  <a href="https://github.com/MrPio/MuseoOmeroApp-MAUI">
+    <img src="assets/app.png" width="80%"></img>
+  </a>
 </p>
 
 ## How to load the database
