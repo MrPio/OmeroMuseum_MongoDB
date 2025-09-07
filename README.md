@@ -4,6 +4,10 @@ This project proposes a redesign and reimplementation using NoSQL of an obsolete
 >[!WARNING]
 > This project is entirely amateur and educational. It was created without any permission, endorsement, or collaboration from the [State Omero Museum](https://www.museoomero.it/). All content, structure, and data usage are fictional or hypothetical.
 
+<p align="center">
+  <img src="assets/app.png" width="80%"></img>
+</p>
+
 ## How to load the database
 `mongodump` from [*MongoDB Database Tools*](https://www.mongodb.com/docs/database-tools/) was used to dump the database right after MySQL migration. Therefore, you need to load it using `mongorestore`, available in the same collection of tools.
 
@@ -22,7 +26,17 @@ The snapshot zoo is the following:
 
 Now you're ready to execute the queries listed in [`2-queries`](2-queries/).
 
+## Activities Flowchart
+<p align="center">
+  <img src="assets/Activities Analysis.png" width="80%"></img>
+</p>
+
 ## Entity-Relationship Diagram
 <p align="center">
-  <img src="assets/ER.png" width="75%"></img>
+  <img src="assets/ER.png" width="80%"></img>
+</p>
+
+## Logical schema
+<p align="center">
+  <img src="assets/database_mongodb2.png" width="80%"></img>
 </p>
