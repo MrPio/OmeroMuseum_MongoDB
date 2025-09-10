@@ -6,12 +6,11 @@
 
 This project proposes a redesign and reimplementation using NoSQL of an obsolete relational database for managing the State Omero Museum.
 
->[!WARNING]
-> This project is entirely amateur and educational. It was created without any permission, endorsement, or collaboration from the [State Omero Museum](https://www.museoomero.it/). All content, structure, and data usage are fictional or hypothetical.
-
 ### 📘 Thesis - *OmeroMuseum-MongoDB* [`.PDF`](assets/OmeroMuseum_MongoDB.pdf) 
 ### 📙 Slideshow - *OmeroMuseum-MongoDB* [`.PPTX`](assets/OmeroMuseum_MongoDB.pptx)
 
+>[!WARNING]
+> This project is entirely amateur and educational. It was created without any permission, endorsement, or collaboration from the [State Omero Museum](https://www.museoomero.it/). All content, structure, and data usage are fictional or hypothetical.
 
 <p align="center">
   <a href="https://github.com/MrPio/MuseoOmeroApp-MAUI">
